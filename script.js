@@ -45,3 +45,8 @@ window.addEventListener("scroll", function () {
 backToTop.addEventListener("click", function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+
+/* 6. Current Year */
+document.getElementById("currentYear").textContent =
+  new Date().getFullYear();
